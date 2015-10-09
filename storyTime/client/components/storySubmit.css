@@ -1,0 +1,18 @@
+.storyForm {
+  width: 100%;
+  margin-top: 40px;
+
+}
+
+.submit  {
+  width: 250px;
+  margin: 0 auto;
+}
+
+input{
+   text-align:center;
+}
+
+input[type='text'] {
+  background-color: #add8e6;
+}

@@ -1,0 +1,28 @@
+<body>
+
+  <nav>
+    <div id="logo">
+      StoryTime
+    </div>
+    {{> loginButtons }}
+  </nav>
+  <!-- PULL IN THE SENTENCE CONTINUATION FORM -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3"> 
+        {{ >storySubmit }}
+      </div>
+    </div>
+  </div>  
+
+  <!-- SHOW STORY -->
+  <div class="stories">
+          {{ >story }}
+  </div>
+
+  <div class='clear button'>
+    
+        {{ >clearButton }}
+
+  </div>
+</body>

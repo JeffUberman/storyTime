@@ -1,0 +1,28 @@
+body {
+  background-image:  url("http://blog.ioncube.com/wp-content/uploads/2013/12/cloud-wallpaper-hd-background-5.png");
+  background-size:height 100% width 100%;                     
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#login-buttons {
+  float: right;
+  margin: 5px 10px;
+}
+
+#login-dropdown-list {
+  position: relative;
+  background-color: #add8e6;
+}
+
+#login-sign-in-link {
+  color: black;
+}
+
+#logo {
+  float: left;
+  margin: 15px 10px;
+  font-size: 36px;
+  color: black;
+
+}

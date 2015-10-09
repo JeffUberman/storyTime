@@ -1,0 +1,16 @@
+<!-- DISPLAY STORY -->
+
+<template name="storySubmit">
+  {{#if currentUser}}
+  <form>
+
+    <div class="form-group">
+        <input type="text" name="newSentence" class="form-control storyForm" placeholder="Continue the story...">
+    </div>
+
+      <button type="submit" class="btn btn-lg btn-success btn-block submit">Submit</button>
+
+  </form>
+  {{/if}}
+
+</template>
